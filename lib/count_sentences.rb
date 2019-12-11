@@ -16,6 +16,6 @@ end
 
   def count_sentences
     self.split.count
-    binding.pry 
+    self.reject(&:blank?)
   end
 end
