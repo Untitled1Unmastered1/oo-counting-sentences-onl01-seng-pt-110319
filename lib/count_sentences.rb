@@ -15,6 +15,6 @@ end
   end
 
   def count_sentences
-    self.split.count.reject
+    self.split.count.reject(&:blank?)
   end
 end
