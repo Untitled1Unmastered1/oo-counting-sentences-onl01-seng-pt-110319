@@ -15,8 +15,10 @@ end
   end
 
   def count_sentences
-    self.split.count
+    # self.split.count
     # binding.pry
+    sentence_array = self.split
+  return sentence_array.count
   end
 end
 
