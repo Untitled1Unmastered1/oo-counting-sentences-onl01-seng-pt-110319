@@ -5,8 +5,8 @@ class String
   def sentence?(self)
     if self.end_with?(.)
       return true 
-     else 
-     false 
+    else 
+      return false 
   end
 
   def question?
