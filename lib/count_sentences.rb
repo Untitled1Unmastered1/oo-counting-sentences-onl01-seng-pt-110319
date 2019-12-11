@@ -16,7 +16,7 @@ end
 
   def count_sentences
     self.split.count 
-    binding.pry 
+    # binding.pry
   end
 end
 
